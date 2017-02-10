@@ -15,6 +15,8 @@
 		60407E071E4D662E007E13D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60407E051E4D662E007E13D1 /* LaunchScreen.storyboard */; };
 		60407E121E4D662E007E13D1 /* starEvaluateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60407E111E4D662E007E13D1 /* starEvaluateTests.m */; };
 		60407E1D1E4D662E007E13D1 /* starEvaluateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60407E1C1E4D662E007E13D1 /* starEvaluateUITests.m */; };
+		60407E2E1E4D67D3007E13D1 /* UIView+StareEvaluate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60407E2D1E4D67D3007E13D1 /* UIView+StareEvaluate.m */; };
+		60407E311E4D685D007E13D1 /* YLJ_stareEvaluate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60407E301E4D685D007E13D1 /* YLJ_stareEvaluate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		60407E181E4D662E007E13D1 /* starEvaluateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = starEvaluateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60407E1C1E4D662E007E13D1 /* starEvaluateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = starEvaluateUITests.m; sourceTree = "<group>"; };
 		60407E1E1E4D662E007E13D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60407E2C1E4D67D3007E13D1 /* UIView+StareEvaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+StareEvaluate.h"; sourceTree = "<group>"; };
+		60407E2D1E4D67D3007E13D1 /* UIView+StareEvaluate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+StareEvaluate.m"; sourceTree = "<group>"; };
+		60407E2F1E4D685D007E13D1 /* YLJ_stareEvaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLJ_stareEvaluate.h; sourceTree = "<group>"; };
+		60407E301E4D685D007E13D1 /* YLJ_stareEvaluate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLJ_stareEvaluate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		60407DF61E4D662E007E13D1 /* starEvaluate */ = {
 			isa = PBXGroup;
 			children = (
+				60407E2B1E4D67B5007E13D1 /* YLJStareEvaluate */,
 				60407DFA1E4D662E007E13D1 /* AppDelegate.h */,
 				60407DFB1E4D662E007E13D1 /* AppDelegate.m */,
 				60407DFD1E4D662E007E13D1 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				60407E1E1E4D662E007E13D1 /* Info.plist */,
 			);
 			path = starEvaluateUITests;
+			sourceTree = "<group>";
+		};
+		60407E2B1E4D67B5007E13D1 /* YLJStareEvaluate */ = {
+			isa = PBXGroup;
+			children = (
+				60407E2C1E4D67D3007E13D1 /* UIView+StareEvaluate.h */,
+				60407E2D1E4D67D3007E13D1 /* UIView+StareEvaluate.m */,
+				60407E2F1E4D685D007E13D1 /* YLJ_stareEvaluate.h */,
+				60407E301E4D685D007E13D1 /* YLJ_stareEvaluate.m */,
+			);
+			path = YLJStareEvaluate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60407E311E4D685D007E13D1 /* YLJ_stareEvaluate.m in Sources */,
 				60407DFF1E4D662E007E13D1 /* ViewController.m in Sources */,
 				60407DFC1E4D662E007E13D1 /* AppDelegate.m in Sources */,
 				60407DF91E4D662E007E13D1 /* main.m in Sources */,
+				60407E2E1E4D67D3007E13D1 /* UIView+StareEvaluate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
